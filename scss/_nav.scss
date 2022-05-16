@@ -1,0 +1,24 @@
+nav {
+    grid-area: navbar;
+
+    .navbar{
+        color: red;
+    } 
+}
+
+
+
+
+.navbar .menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .menu li {
+    list-style: none;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: white;
+ }

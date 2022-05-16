@@ -3,28 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
-/* Tipografias*/
-.navbar, .footer {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal; }
-
-h1 {
-  font-family: 'Koulen', cursive;
-  letter-spacing: 5px;
-  padding: 0 0 10%; }
-
-.h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold; }
-
-/* Estilos generales */
-body {
-  background-color: #F3E5D3;
-  text-align: center;
-  grid-template-areas: "navbar" "header" "aside" "main" "footer"; }
-
 nav {
   grid-area: navbar; }
+  nav .navbar {
+    color: red; }
 
 .navbar .menu {
   display: flex;
@@ -37,8 +19,29 @@ nav {
   text-decoration: none;
   color: white; }
 
-.banner-principal {
-  width: 100%; }
+/* Tipografias*
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Koulen', cursive;
+    letter-spacing: 5px;
+    padding: 0 0 10%;
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* Estilos generales */
+body {
+  background-color: #F3E5D3;
+  text-align: center;
+  grid-template-areas: "navbar" "header" "aside" "main" "footer"; }
 
 .imagen-body {
   width: 60%;
@@ -88,10 +91,11 @@ iframe {
 .texto-home {
   margin: 10px 50px 20px; }
 
-/* TRANSICION NAVBAR */
+/* TRANSICION NAVBAR *
 .navbar .menu li:hover {
-  background-color: #c3b30d;
-  transition: background-color 1s; }
+    background-color: rgb(195, 179, 13);
+    transition: background-color 1s;
+}
 
 /* ANIMACION */
 @keyframes agrandarimagen {

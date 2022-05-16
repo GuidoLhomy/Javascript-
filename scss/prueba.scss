@@ -1,12 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "reset";
+@import "_nav";
 
-/* Tipografias*/
+/* Tipografias*
 
-.navbar,.footer {
+.footer {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -36,28 +33,7 @@ body {
         "footer";
 }
 
-nav {
 
-    grid-area: navbar;
-}
-
-.navbar .menu {
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar .menu li {
-    list-style: none;
-}
-
-.navbar .menu a {
-    text-decoration: none;
-    color: white;
-}
-
-.banner-principal {
-    width: 100%;
-}
 
 .imagen-body {
     width: 60%;
@@ -128,7 +104,7 @@ iframe {
 }
 
 
-/* TRANSICION NAVBAR */
+/* TRANSICION NAVBAR *
 .navbar .menu li:hover {
     background-color: rgb(195, 179, 13);
     transition: background-color 1s;
