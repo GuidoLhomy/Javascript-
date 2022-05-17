@@ -18,8 +18,6 @@ header {
 footer {
   justify-content: center;
   font-family: 'Roboto', sans-serif; }
-  footer h4 {
-    font-weight: bold; }
   footer a {
     text-decoration: none;
     color: red; }
@@ -50,15 +48,14 @@ footer {
   .texto-home {
     margin: 0 20% 5%; } }
 
-h2 {
+h2, footer h4, main h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold; }
 
 /* Estilos generales */
 body {
   background-color: #F3E5D3;
-  text-align: center;
-  grid-template-areas: "navbar" "header" "aside" "main" "footer"; }
+  text-align: center; }
 
 .container img {
   width: 60%;
@@ -77,13 +74,16 @@ aside {
 
 main {
   grid-area: main; }
-  main h3 {
-    font-family: 'Roboto', sans-serif; }
   main table {
     font-size: 7px;
     background-color: #d18f1c;
     border-radius: 10px;
     border-style: dashed; }
+
+iframe {
+  display: block;
+  width: 90%;
+  margin: auto; }
 
 /*
 h1 h2 {

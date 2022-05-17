@@ -1,2 +1,40 @@
 $color-primario: #F3E5D3;
 $color-secundario: #d18f1c;
+
+@mixin size($ancho) {
+    width: $ancho ;
+    }
+
+$mainw: (
+    index: 
+    "navbar"
+        "header"
+        "aside"
+        "main"
+        "footer",
+        nosotros: 
+        "navbar"
+        "header"
+        "aside"
+        "main"
+        "footer",
+        tips: 
+        "navbar"
+        "header"
+        "aside"
+        "main"
+        "footer",
+        donde-estamos: 
+        "navbar"
+        "header"
+        "aside"
+        "main"
+        "footer",
+        contacto: 
+        "navbar"
+        "header"
+        "aside"
+        "main"
+        "footer",
+       
+    )    

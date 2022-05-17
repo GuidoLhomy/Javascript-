@@ -3,7 +3,7 @@ footer {
     font-family: 'Roboto', sans-serif;
 
     h4 {
-        font-weight: bold;
+        @extend h2;
     }
 
     a {

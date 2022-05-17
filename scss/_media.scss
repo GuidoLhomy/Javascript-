@@ -51,7 +51,7 @@
 
 
     .banner-principal {
-        width: 100%;
+        @include size(100%);
 
     }
 

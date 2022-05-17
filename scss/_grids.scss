@@ -1,5 +1,5 @@
 @each $pagew, $areaw in $mainw {
-    .#{$pagew}-main-wrapper {
+    .#{$pagew}-body {
         display: grid;
         grid-template-areas: $areaw;
     }

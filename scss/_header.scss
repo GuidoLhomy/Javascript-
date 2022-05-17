@@ -2,7 +2,7 @@ header {
     grid-area: header;
     
     img {
-        width: 100%;
+        @include size(100%);
     }
 
     h1 {
