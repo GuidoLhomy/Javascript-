@@ -46,7 +46,9 @@ footer {
   .banner-principal {
     width: 100%; }
   .texto-home {
-    margin: 0 20% 5%; } }
+    margin: 0 20% 5%; }
+  .video {
+    width: 60%; } }
 
 h2, footer h4, main h3 {
   font-family: 'Roboto', sans-serif;
@@ -65,12 +67,12 @@ body {
 
 aside {
   grid-area: aside; }
-
-.listatips {
-  margin: 5%; }
-
-.titulotips {
-  margin: 5%; }
+  aside p {
+    margin: 10px 50px 20px; }
+  aside h3 {
+    margin: 5%; }
+  aside ol {
+    margin: 5%; }
 
 main {
   grid-area: main; }
@@ -79,43 +81,10 @@ main {
     background-color: #d18f1c;
     border-radius: 10px;
     border-style: dashed; }
-
-iframe {
-  display: block;
-  width: 90%;
-  margin: auto; }
-
-/*
-h1 h2 {
-    text-align: center;
-
-}
-
-
-ol li {
-    padding: 10px;
-    background-color: whitesmoke;
-    border: solid 1px;
-    font-size: 25px;
-}
-
-iframe {
+  main iframe {
     display: block;
     width: 90%;
-    margin: auto;
-
-}
-
-.texto-home {
-    margin: 10px 50px 20px;
-}
-
-
-/* TRANSICION NAVBAR *
-.navbar .menu li:hover {
-    background-color: rgb(195, 179, 13);
-    transition: background-color 1s;
-}
+    margin: auto; }
 
 /* ANIMACION */
 @keyframes agrandarimagen {
