@@ -13,12 +13,20 @@
         font-size: 60px;
     }
 
+    
+    
     .main {
-        table {
-           font-size: 100%; 
-             
+        
+        form {
+            width: 50%;
         }
+
+        .columna{
+            width: 30%;
+        } 
     }
+
+    
 }
 
 @media (min-width: 900px) {
@@ -32,8 +40,6 @@
             "aside main main"
             "footer footer footer";
     }
-
-  
 }
 
 @media (min-width: 1200px) {
@@ -42,13 +48,16 @@
         grid-template-columns: 35% auto;
         grid-template-rows: 1fr;
         grid-template-areas:
-            "navbar navbar navbar"
-            "header header header"
-            "aside aside aside"
-            "main main main"
-            "footer footer footer";
+            "navbar"
+            "header"
+            "aside"
+            "main"
+            "footer";
     }
 
+    .columna{
+        width: 30%
+    }
 
     .banner-principal {
         @include size(100%);
@@ -62,4 +71,5 @@
     .video {
         width: 60%;
     }
+
 }

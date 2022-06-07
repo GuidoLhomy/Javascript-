@@ -1,13 +1,14 @@
 footer {
+    background-color: $color-secundario;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-
+    margin: 10% 0 0 0;
+    
     h4 {
         @extend h2;
     }
 
     a {
         text-decoration: none;
-        color: red;
-    }
+        }
 }
